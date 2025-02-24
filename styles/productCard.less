@@ -1,0 +1,48 @@
+.cartItemImage {
+    width: 40%;
+    float: left;
+    height: 240px;
+}
+.cartItemContent {
+    float: right;
+    height: 200px;
+}
+.productSpecs {
+    font-weight: 900;
+}
+.cartProductTextField {
+    :global {
+        .MuiOutlinedInput-root {
+            height: 30px;
+            width: 80px;
+        }
+    }
+}
+.productTotalPrice {
+    padding: 16px;
+}
+.productTotalQuantity {
+    padding-left: 16px;
+    padding-top: 16px;
+    :global {
+        .MuiIconButton-root {
+            padding: 0px;
+        }
+        .MuiFormControl-marginNormal {
+            margin: 0px;
+        }
+    }
+}
+.removeFromCartText {
+    cursor: pointer;
+}
+.alreadyAddedProduct {
+    background: rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+}
+.productList {
+    .MuiLink-underlineHover:hover {
+        text-decoration: none;
+    }
+}
